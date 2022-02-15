@@ -17,7 +17,7 @@ async function jqActive() {
 
 function InfoScript() {
     var IScript = document.createElement('script');
-    IScript.src = "https://cdn.jsdelivr.net/gh/mrkrein/b4copy@main/b4tech_copy.js";IScript.defer = true;
+    IScript.src = "https://cdn.jsdelivr.net/gh/mrkrein/b4copy@main/info.js";IScript.defer = true;
     document.getElementsByTagName('body')[0].appendChild(IScript);
 }
 
