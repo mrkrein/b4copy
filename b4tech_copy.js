@@ -3,7 +3,7 @@ let ver = "2.1.1";
 var pass = "1234qwerty"
 var text = "<!-- Данный сайт был написан: B4Tech -->" + "<!-- INST: @body4_drift VK: body4_drift -->" + "<!-- Текущая дата, полученная с сервера " + d + "-->" + "<!-- Версия скрипта автообновления " + ver + "-->";
 var jqState = null;
-/* LockDown(); */
+LockDown(); 
 
 /* Подключаем JQuery */
 async function jqActive() {
